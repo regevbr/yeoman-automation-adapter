@@ -1,6 +1,6 @@
 {
   "name": "yeoman-automation-adapter",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Yeoman automation adapter for creating automatic responses to user prompts",
   "main": "index.js",
   "repository": {
@@ -23,6 +23,7 @@
   "homepage": "https://github.com/regevbr/yeoman-automation-adapter#readme",
   "dependencies": {
     "inquirer": "^6.0.0",
+    "lodash": "^4.17.10",
     "yeoman-environment": "^2.3.0"
   }
 }
