@@ -26,4 +26,4 @@ env.run(...);
 
 Examples
 ---------
-Please see examples dir for fully automated example
+Please see examples dir for fully automated examples
