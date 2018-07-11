@@ -1,0 +1,28 @@
+{
+  "name": "yeoman-automation-adapter",
+  "version": "1.0.0",
+  "description": "Yeoman automation adapter for creating automatic responses to user prompts",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/regevbr/yeoman-automation-adapter.git"
+  },
+  "keywords": [
+    "yeoman",
+    "adapter",
+    "generator",
+    "automation",
+    "yeoman-adapter",
+    "yeoman-generator"
+  ],
+  "author": "Regev Brody <regevbr@gmail.com>",
+  "license": "AGPL-3.0",
+  "bugs": {
+    "url": "https://github.com/regevbr/yeoman-automation-adapter/issues"
+  },
+  "homepage": "https://github.com/regevbr/yeoman-automation-adapter#readme",
+  "dependencies": {
+    "inquirer": "^6.0.0",
+    "yeoman-environment": "^2.3.0"
+  }
+}
