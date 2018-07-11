@@ -44,9 +44,11 @@ const runGenerator = (name, answers) => {
       return onError(generator);
     }
     generator.on('error', onError);
-    generator.run(() => {
-      console.log('Finished generating', name);
-      resolve();
+    generator.run((err) => {
+      if (!err) {
+        console.log('Finished generating', name);
+        resolve();
+      }
     });
   });
 };
