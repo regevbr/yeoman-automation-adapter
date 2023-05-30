@@ -1,5 +1,5 @@
 {
-  "name": "@exalif/yeoman-automation-adapter",
+  "name": "yeoman-automation-adapter",
   "version": "2.0.0",
   "description": "Yeoman automation adapter for creating automatic responses to user prompts",
   "main": "index.js",
